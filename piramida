@@ -1,0 +1,13 @@
+num=int(input())
+space=" "
+
+for i in range(1, num+1): #kol-vo strok kotoroe ya vvel v :"num:
+    for zxc in range (i+1, 1, -num): #cikl idet v mensh storonu
+        x =(i-1)
+        spaces=space*(num-x)
+        print(spaces, end="")
+        for pudge in range (i, 1, -1):
+            print (pudge, end="")
+        for sf in range (1, i+1):
+            print (sf, end="")
+        print("")
